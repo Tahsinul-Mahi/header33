@@ -1,0 +1,53 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+section{
+   width: 100px;
+}
+
+.container{
+   width: 1140px;
+   margin: 0px 110%;
+}
+
+.main-box{
+
+   display:flex;
+   align-items: center;
+}
+
+.logo,.duel-btn{
+   flex-basis:20%;
+}
+
+.menu{
+   flex-basis: 60%;
+}
+.menu ul{
+   margin: 0;
+   padding: 0;
+}
+.menu ul li{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: inline-block;
+   margin-right: 20px;
+   font-size: 20px;
+   color: #0e72cc;
+}
+.duel-btns{
+   display: flex;
+  
+
+}
+button{
+   font-size: 16px;
+  padding: 14px 25px;
+  background-color: #0e72cc;
+  border: 1px solid;
+  color:#fff
+  
+}
